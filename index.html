@@ -7,35 +7,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Responsive Animated Online Education Website Design Tutorial</title>
-    <link rel="stylesheet" href="fonts/font-awesome.css">
-    <link rel="stylesheet" href="fonts/google-fonts.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
-    <script src="js/jquery.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    
 </head>
 <body>
 
   <!-- header section starts  -->
 
-<section id="header">
+  <section id="top">
+    <div class="container">
+     
+    <input type="checkbox" id="check">
+    <label for="check" class="show-btn">
+      <i class="fa fa-bars"></i>
+    </label>
 
-<a href="#" class="logo"><img src="images/logo.png" alt=""></a>
-
-<nav>
-  <ul>
-    <li><a href="#home">home</a></li>
-    <li><a href="#course">courses</a></li>
-    <li><a href="#service">services</a></li>
-    <li><a href="#testimonial">testimonials</a></li>
-    <li><a href="#contact">contact</a></li>
-  </ul>
-</nav>
-
-<div class="fas fa-bars"></div>
-
-</section>
+    <!-- menu -->
+    <ul class="menu-bar">
+      <a href="#home">Home</a>
+      <a href="#aboutus">About</a>
+      <a href="#service">Services</a>
+      <a href="#course">Courses</a>
+      <a href="#testimonial">testimonials</a>
+      <a href="#contact">Contact</a>
+      <label for="check" class="hide-btn">
+      <i class="fa fa-times"></i>
+      </label>
+    </ul>
+  </div>
+  </section>
 
 <!-- header section ends -->
 
@@ -45,7 +49,7 @@
 
 <div class="row align-items-center min-vh-100 content">
 
-<div id="mtext" class="col-md-8 ml-md-5 text-center text-md-left">
+<div  class="col-md-4 ml-md-5  text-center text-md-left">
 
   <h2>online</h2>
   <h1>education</h1>
@@ -54,10 +58,10 @@
   <a href="#course"><button> enroll now >></button></a>  
 
   <div class="icons">
-    <a href="#" class="fab fa-facebook-f"></a>
-    <a href="#" class="fab fa-twitter"></a>
-    <a href="#" class="fab fa-instagram"></a>
-    <a href="#" class="fab fa-linkedin"></a>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-linkedin"></a>
   </div>
 
 </div>
@@ -104,7 +108,7 @@
   <div class="box-container">
   
     <div class="box" data-aos="flip-up">
-      <img src="" alt="">
+      <img src="images/5.jfif"  alt="" >
       <div class="info">
         <h2>skilled teachers</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad officia quas pariatur error nesciunt consectetur voluptatem minima fugit quo!</p>
@@ -112,7 +116,7 @@
     </div>
   
     <div class="box" data-aos="flip-down">
-      <img src="images/service2.svg" alt="">
+      <img src="images/service.png" alt="">
       <div class="info">
         <h2>24x7 hours service</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad officia quas pariatur error nesciunt consectetur voluptatem minima fugit quo!</p>
@@ -120,7 +124,7 @@
     </div>
   
     <div class="box" data-aos="flip-up">
-      <img src="images/service3.svg" alt="">
+      <img src="images/cirty.jfif" alt="">
       <div class="info">
         <h2>certificate distribution</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad officia quas pariatur error nesciunt consectetur voluptatem minima fugit quo!</p>
@@ -142,35 +146,35 @@
 <div class="box-container">
 
   <div class="box" data-aos="flip-right">
-    <img src="html-5.png" alt="">
+    <img src="images/html-5.png" alt="">
     <p> HTML stands for Hyper Text Markup Language. It is used to design web pages using markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages.</p>
   </div>
 
   <div class="box" data-aos="flip-down">
-    <img src="css-3.png" alt="">
+    <img src="images/css-3.png" alt="">
     <p>Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independent of the HTML that makes up each web page.</p>
   </div>
 
   <div class="box" data-aos="flip-left">
-    <img src="js.png" alt="">
+    <img src="images/js.png" alt="">
     <p>JavaScript is a lightweight, cross-platform and interpreted scripting language. It is well-known for the development of web pages, many non-browser environments also use it. JavaScript can be used for Client-side developments as well as Server-side developments.
 
     </p>
   </div>
 
   <div class="box" data-aos="flip-right">
-    <img src="jquery.png" alt="">
+    <img src="images/jquery.png" alt="">
     <p>jQuery is an open source JavaScript library that simplifies the interactions between an HTML/CSS document, or more precisely the Document Object Model (DOM), and JavaScript.
       Elaborating the terms, jQuery simplifies HTML document traversing and manipulation, browser event handling, DOM animations, Ajax interactions, and cross-browser JavaScript development.</p>
   </div>
 
   <div class="box" data-aos="flip-up">
-    <img src="react.png" alt="">
+    <img src="images/react.png" alt="">
     <p>React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It’s ‘V’ in MVC. ReactJS is an open-source, component-based front end library responsible only for the view layer of the application. It is maintained by Facebook.</p>
   </div>
 
   <div class="box" data-aos="flip-right">
-    <img src="nodejs.png" alt="">
+    <img src="images/nodejs.png" alt="">
     <p> Node.js is an open source and cross-platform runtime environment for executing JavaScript code outside of a browser. You need to remember that NodeJS is not a framework and it’s not a programming language.</p>
   </div>
 
@@ -192,33 +196,33 @@
 <div class="box-container">
 
 <div class="box" data-aos="flip-left">
-  <img src="1.png" alt="">
+  <img src="images/1.png" alt="">
   <div class="info">
-    <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fas fa-quote-right"></i></p>
+    <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fa fa-quote-right"></i></p>
     <h2>--someone's name</h2>
   </div>
 </div>
 
 <div class="box" data-aos="flip-right">
-  <img src="2.png" alt="">
+  <img src="images/2.png" alt="">
   <div class="info">
-    <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fas fa-quote-right"></i></p>
+    <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fa fa-quote-right"></i></p>
     <h2>--someone's name</h2>
   </div>
 </div>
 
 <div class="box" data-aos="flip-left">
-  <img src="3.png" alt="">
+  <img src="images/3.png" alt="">
   <div class="info">
-    <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fas fa-quote-right"></i></p>
+    <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fa fa-quote-right"></i></p>
     <h2>--someone's name</h2>
   </div>
 </div>
 
 <div class="box" data-aos="flip-right">
-  <img src="6.png" alt="">
+  <img src="images/6.png" alt="">
   <div class="info">
-    <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fas fa-quote-right"></i></p>
+    <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fa fa-quote-right"></i></p>
     <h2>--someone's name</h2>
   </div>
 </div>
@@ -235,9 +239,9 @@
 
 <h1 class="heading">get in touch</h1>
 
-<div class="row min-vh-75 align-items-center min-vw-100">
 
-<div class="col-lg-5 col-md-8  mx-auto">
+
+<div class="col-lg-10 col-md-2  mx-auto">
  
 <form action="" data-aos="zoom-in">
 
@@ -269,7 +273,7 @@
 
 </div>
 
-</div>
+
 
 </section>
 
